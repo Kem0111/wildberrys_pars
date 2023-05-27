@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wildberrys-pars"
+version = "0.1.0"
+description = ""
+authors = ["kem <you@example.com>"]
+readme = "README.md"
+packages = [{include = "wildberrys_pars"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^2.25.1"
+aiohttp = "^3.8.4"
+python-dotenv = "^1.0.0"
+aiofiles = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
